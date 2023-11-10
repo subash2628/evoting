@@ -1,0 +1,36 @@
+{
+  "name": "binarybeasts",
+  "version": "1.0.0",
+  "description": "E-vote",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon --watch dev -e js server/server.js",
+    "node_1": "nodemon --watch dev -e js Blockchain/networkNode.js 3001 http://localhost:3001",
+    "node_2": "nodemon --watch dev -e js Blockchain/networkNode.js 3002 http://localhost:3002",
+    "node_3": "nodemon --watch dev -e js Blockchain/networkNode.js 3003 http://localhost:3003"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-ces/BinaryBeasts.git"
+  },
+  "author": "subash sharma subedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i-ces/BinaryBeasts/issues"
+  },
+  "homepage": "https://github.com/i-ces/BinaryBeasts#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "font-awesome": "^4.7.0",
+    "mongoose": "^5.8.9",
+    "nodemon": "^2.0.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "sha256": "^0.2.0",
+    "uuid": "^3.4.0"
+  }
+}

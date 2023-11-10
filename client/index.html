@@ -1,0 +1,153 @@
+<!-- project building started at 12:13 -->
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" href="./img/icon.png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/first.css">
+
+<!--     <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
+ -->    <link href="https://fonts.googleapis.com/css?family=Cinzel|Quantico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>E-vote Nepal</title>
+  </head>
+
+
+  <body>
+      <header >
+        <div  class="container-fluid">
+
+            <div  class="row">
+        
+                    <div  style="padding-top: 23px;" class=" col-2 col-sm-2">
+                        <a href="index.html"> <img id="logo-1" src="./img/715px-Emblem_of_Nepal.svg.png" height="100" width="100"></a>
+                    </div>
+                    <div class="col-8 col-sm-8 text-center heading">
+                            <h1 id="h1-first"> E-voting Portal</h1>
+
+                    </div>
+                    <div style="padding-top: 23px;" class="col-2 col-sm-2">
+                            <img id="logo-2" src="./img/Flag_of_Nepal.gif" height="100" width="100">
+
+                    </div>
+                        
+            </div>
+          </div>
+
+
+          <div   class="row">
+                <div id="nav-plane" class="col-sm-12">
+                        <nav id="nav" class="navbar navbar-expand-lg navbar-light ">
+                                <a  class="navbar-brand" href="#"><h1 style="font-family: 'Cinzel', serif; opacity: .5;">E-vote</h1></a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                  <span class="navbar-toggler-icon"></span>
+                                </button>
+                              
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                  <ul class="navbar-nav mr-auto navText">
+                                    <li  id="navHomeButton" class="nav-item">
+                                      <a class="nav-link"  href="index.html">Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li id="navRegisterButton" class="nav-item">
+                                      <a class="nav-link" onclick="$dc.getRegister();" href="#">Registration</a>
+                                    </li>
+                                    
+                                    <li id="status-check" class="nav-item">
+                                      <a class="nav-link " onclick="$dc.getStatus();" href="#">Status Check</a>
+                                    </li>
+                                    <li id="" class="nav-item">
+                                        <a class="nav-link " onclick="$dc.getDashboard();" href="#">Dashboard</a>
+
+                                    </li>
+                                    <li id="" class="nav-item">
+                                        <a class="nav-link " onclick="$dc.getChecker();" href="#">Checker</a>
+
+                                    </li>
+                                    <li id="" class="nav-item">
+                                        <a class="nav-link " onclick="$dc.getResult();" href="#">Result</a>
+
+                                    </li>
+                                    <li id="" class="nav-item">
+                                        <a class="nav-link " onclick="$dc.getHelp();" href="#">Help</a>
+
+                                    </li>
+                                  </ul>
+                                  <form class="form-inline my-2 my-lg-0">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                    <button  class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                  </form>
+                                </div>
+                              </nav>      
+                </div>        
+            </div>
+          </div>
+
+        </header>
+
+
+
+          <!-- main content here -->
+          <div style="padding: 50px 0px 50px 0px;" id="main-content" class="container"></div>
+
+
+
+
+          <footer id="footer" class="footer ">
+            <div class="container">
+                <div class="row ">             
+                    <div class="col-4 offset-1 col-sm-2">
+                        <h5>Useful Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a target="_blank" href="http://www.election.gov.np/election/np">Election Commission</a></li>
+                            <li><a target="_blank" href="http://www.nepal.gov.np"">Nepal Government</a></li>
+                            <li><a target="_blank" href="https://www.nepalpolice.gov.np">Nepal Police</a></li>
+                            <li><a target="_blank" href="https://www.opmcm.gov.np">Office of the Prime Minister</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-7 col-sm-5">
+                        <h5>Address</h5>
+                        <address>
+                          Election Commission<br>
+                          Kathmandu<br>
+                          NEPAL<br>
+                          <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+                          <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
+                          <i class="fa fa-envelope fa-lg"></i>: 
+                          <a href="nep.gov.np">nep.gov.np</a>
+                        </address>
+                    </div>
+
+                    <!-- remedy required........ 
+                    <div class="col-12 col-sm-4 align-self-center">
+                            <div class="text-center">
+                                    <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fab fa-google"></i></a>
+                                    <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fab fa-facebook-square fa-2x"></i></a>
+                                    <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fab fa-linkedin fa-2x"></i></a>
+                                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fab fa-twitter fa-2x"></i></a>
+                                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fab fa-youtube fa-2x"></i></a>
+                                    <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                                </div>
+                    </div>  -->
+                </div>   
+
+                <div class="row justify-content-center">             
+                    <div class="col-auto">
+                        <p>© Copyright 2019 Online Voting Portal, Nepal</p>
+                    </div>
+                </div>
+          </div>
+        </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+    
+<!--     <script src="javascript/ajax-utils.js"></script>
+ -->    <script src="javascript/first.js"></script>
+  </body>
+
+
+  </html>

@@ -1,0 +1,23 @@
+.container-fluid {
+    padding: 15px;
+}
+h3{
+    font-family: 'Quantico', sans-serif;
+}
+p{
+    font-family: 'Quantico', sans-serif;
+}
+.mr-1{
+    margin-top: 10px;
+}
+@media screen and (max-width: 300px) {
+     .submitbtn {
+       width: 30%;
+    }
+    .mid-right { 
+        top: 50%; 
+        right: 0; 
+        transform: translateY(-50%); 
+    } 
+      
+}   

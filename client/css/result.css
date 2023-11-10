@@ -1,0 +1,23 @@
+.counter
+{
+    
+    text-align: center;
+}
+.Party-1, .Party-2, .Party-3, .Party-x, .Party-y, .Party-z
+{
+    color: black;
+    
+}
+.counter-count
+{
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: #228B22;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+
+
+    
+
+}
